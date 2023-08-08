@@ -28,3 +28,8 @@ seeder test
 email' => 'superadmin@example.com',
 'password' => Hash::make('superadmin'),
 'role' => 'superadmin',
+
+'name' => 'admin',
+'email' => 'admin@example.com',
+'password' => Hash::make('admin'),
+'role' => 'admin',
