@@ -10,9 +10,9 @@
 
 
 ##instalation
--composer install
--npm install
--php artisan migrate
--get 2 cmd:
+composer install
+npm install
+php artisan migrate
+get 2 cmd:
 npm run dev
 php artisan serve
