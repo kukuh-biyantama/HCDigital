@@ -12,8 +12,11 @@
 instalation
 <br>
 composer install
+<br>
 npm install
+<br>
 php artisan migrate
+<br>
 get 2 cmd:
 npm run dev
 php artisan serve
