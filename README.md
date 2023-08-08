@@ -17,6 +17,14 @@ npm install
 <br>
 php artisan migrate
 <br>
+php artisan db:seed UserSeeder
+<br>
 get 2 cmd:
 npm run dev
 php artisan serve
+
+seeder test
+'name' => 'superadmin',
+email' => 'superadmin@example.com',
+'password' => Hash::make('superadmin'),
+'role' => 'superadmin',
