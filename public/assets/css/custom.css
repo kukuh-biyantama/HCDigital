@@ -1,0 +1,6 @@
+/* style.css */
+
+nav ul li.active {
+    background-color: #007bff; /* Add your desired active link background color here */
+    /* Add any other styling you want for the active link */
+}
