@@ -9,7 +9,8 @@
 
 
 
-##instalation
+instalation
+<br>
 composer install
 npm install
 php artisan migrate
