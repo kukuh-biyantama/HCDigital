@@ -4,7 +4,7 @@
 <div class="container" style="margin-top: 5%;">
     <h1>Add User (SuperAdmin View)</h1>
 
-    <form action="{{ route('users.store') }}" method="POST">
+    <form action="{{ route('superusers.store') }}" method="POST">
         @csrf
         <div class="form-group">
             <label for="name">Name</label>

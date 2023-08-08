@@ -28,11 +28,11 @@ Route::middleware(['auth', 'verified'])->group(function () {
     // Routes for 'superadmin' role
     Route::middleware(['checkrole:superadmin'])->group(function () {
         Route::get('/admins', [UserController::class, 'indexAdmin'])->name('users.indexadmin');
-        Route::get('/users/create', [UserController::class, 'create'])->name('users.create');
-        Route::post('/users', [UserController::class, 'store'])->name('users.store');
-        Route::get('/users/{user}/edit', [UserController::class, 'edit'])->name('users.edit');
-        Route::put('/users/{user}', [UserController::class, 'update'])->name('users.update');
-        Route::delete('/users/{user}', [UserController::class, 'destroy'])->name('users.destroy');
+        Route::get('/superusers/create', [UserController::class, 'create'])->name('superusers.create');
+        Route::post('/superusers', [UserController::class, 'store'])->name('superusers.store');
+        Route::get('/superusers/{user}/edit', [UserController::class, 'edit'])->name('superusers.edit');
+        Route::put('/superusers/{user}', [UserController::class, 'update'])->name('superusers.update');
+        Route::delete('/superusers/{user}', [UserController::class, 'destroy'])->name('superusers.destroy');
     });
 
     // Routes for 'admin' role

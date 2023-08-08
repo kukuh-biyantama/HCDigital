@@ -4,7 +4,7 @@
 <div class="container" style="margin-top: 5%;">
     <h1>Edit User (SuperAdmin View)</h1>
 
-    <form action="{{ route('users.update', $user) }}" method="POST">
+    <form action="{{ route('superusers.update', $user) }}" method="POST">
         @csrf
         @method('PUT')
         <div class="form-group">
