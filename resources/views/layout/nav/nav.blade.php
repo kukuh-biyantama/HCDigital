@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-xl bg-ghost-white" style="width: 100%;">
     <div class="container-xxl justify-content-md-start">
         <a class="navbar-brand" href="#">
-            <img src="./assets/jasamedika.jpg" alt="" />
+            <img src="./assets/GDP.jpg" alt="" />
         </a>
         <!-- /.navbar-brand -->
 
